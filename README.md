@@ -15,3 +15,7 @@ http://butunclebob.com/ArticleS.UncleBob.TheThreeRulesOfTdd
 #### String Calculator Kata
 
 Can be found here: http://osherove.com/tdd-kata-1/
+
+#### Recommended reading
+
+http://osherove.com/blog/2005/4/3/naming-standards-for-unit-tests.html

@@ -4,7 +4,7 @@
 
 #include "calculator.cpp"
 
-TEST(CalculatorTest, giveSingleValueExpectSameSum)
+TEST(CalculatorTest, calculate_singleValue_sumEqualsValue)
 {
-  EXPECT_EQ(0, calculate("0"));
+  EXPECT_EQ(1, calculate("1"));
 }

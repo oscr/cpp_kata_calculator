@@ -1,6 +1,3 @@
-
-#include <iostream>
-
-int calculate(std::string numbers) {
+int add(std::string numbers) {
   return 0;
 }

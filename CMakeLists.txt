@@ -1,8 +1,14 @@
-cmake_minimum_required(VERSION 2.8)
+cmake_minimum_required(VERSION 2.6)
 
-include("cmake/GTest.cmake")
+add_subdirectory(gtest-1.7.0)
 
-add_definitions(-std=c++11)
+enable_testing()
 
-cxx_test(calculator_test calculatorTest.cpp gtest_main)
+include_directories(${gtest_SOURCE_DIR}/include ${gtest_SOURCE_DIR})
+
+add_executable( calculator_test calculatorTest.cpp calculator.h calculator.cpp)
+
+target_link_libraries(calculator_test gtest gtest_main)
+
+add_test( calculator_test calculator_test)
 

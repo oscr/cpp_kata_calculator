@@ -1,8 +1,6 @@
-
 #include <gtest/gtest.h>
-#include <string>
 
-#include "calculator.cpp"
+#include "calculator.h"
 
 TEST(CalculatorTest, add_singleValue_sumEqualsValue)
 {

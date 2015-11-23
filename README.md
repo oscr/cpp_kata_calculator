@@ -7,9 +7,10 @@ http://butunclebob.com/ArticleS.UncleBob.TheThreeRulesOfTdd
 
 
 #### Build instructions
+0. unzip gtest-1.7.0.zip
 1. cmake .
-2. make 
-3. ctest -VV
+2. make
+3. ctest -VV or ./calculator_test
 
 
 #### String Calculator Kata
